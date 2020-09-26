@@ -33,7 +33,18 @@ Temario
   - Matrices
 6. Funciones definidas
   - Creación
-  - Llamdas
+  - Llamadas
   - Parámetros
   - Funciones anidadas
   - Funciones recursivas
+7. Programación Orientadas a Objetos
+  - Clases
+  - Objetos
+  - Herencia
+  - Polimorfismo
+8. Grágicos
+  - Gráficos XY
+  - Gráficos de Pay
+  - Gráficos de Barras
+  - Gráficos de dispersión
+  - Gráficos en 3D

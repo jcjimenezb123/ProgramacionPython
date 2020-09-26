@@ -7,6 +7,7 @@ Temario
 ---
 
 1. Conocer el ambiente de programación _Google Colab_
+  - Textos: Titulos, subtítulos, listas, tablas.
 1. Operaciones básicas
   - Suma
   - Resta

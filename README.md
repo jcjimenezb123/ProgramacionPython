@@ -8,20 +8,29 @@ Temario
 
 1. Conocer el ambiente de programación _Google Colab_
   - Textos: Titulos, subtítulos, listas, tablas.
-1. Operaciones básicas
+2. Operaciones básicas
   - Suma
   - Resta
   - Multiplicación
   - Potenciación
   - Funciones trigonométricas
   - Funciones matemáticas
-1. Actividades básicas
+3. Actividades básicas
   - Asignación o reemplazo
   - Condiciones
   - Actividades repetitivas de conteo
   - Actividades repetitivas condicionales
-1. Colecciones
+4. Colecciones
   - Listas
   - Tuplas
   - Conjntos o set
   - Diccionarios
+5. Arreglos
+  - Vectores
+  - Matrices
+6. Funciones definidas
+  - Creación
+  - Llamdas
+  - Parámetros
+  - Funciones anidadas
+  - Funciones recursivas

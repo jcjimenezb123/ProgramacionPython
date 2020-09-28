@@ -28,23 +28,26 @@ Temario
   - Tuplas
   - Conjntos o set
   - Diccionarios
-5. Arreglos
+5. Arreglos `numpy`
   - Vectores
   - Matrices
-6. Funciones definidas
-  - Creación
-  - Llamadas
-  - Parámetros
-  - Funciones anidadas
-  - Funciones recursivas
-7. Programación Orientadas a Objetos
-  - Clases
-  - Objetos
-  - Herencia
-  - Polimorfismo
-8. Grágicos
+6. Grágicos
   - Gráficos XY
   - Gráficos de Pay
   - Gráficos de Barras
   - Gráficos de dispersión
   - Gráficos en 3D
+7. Matemáticas cientificas `scipy`
+  - Constantes científicas
+8. Funciones definidas
+  - Creación
+  - Llamadas
+  - Parámetros
+  - Funciones anidadas
+  - Funciones recursivas
+9. Programación Orientadas a Objetos
+  - Clases
+  - Objetos
+  - Herencia
+  - Polimorfismo
+

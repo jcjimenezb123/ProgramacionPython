@@ -39,13 +39,20 @@ Temario
   - Gráficos en 3D
 7. Matemáticas cientificas `scipy`
   - Constantes científicas
-8. Funciones definidas
+  - Métodos numéricos
+8. Matemáticas simbólicas `sympy`
+  - Variables simbólicas
+  - Operaciones
+  - Factorización
+9. Funciones definidas
   - Creación
   - Llamadas
   - Parámetros
   - Funciones anidadas
   - Funciones recursivas
-9. Programación Orientadas a Objetos
+  - Creación de módulos
+  - Creación de paquetes
+10. Programación Orientadas a Objetos
   - Clases
   - Objetos
   - Herencia

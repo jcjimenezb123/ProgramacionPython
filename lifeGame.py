@@ -21,6 +21,22 @@ gameState = np.array([np.random.randint(0,2,nxC) for j in range(nyC)])
 dimCW = width / nxC
 dimCH = height / nyC
 '''
+#Box 2
+gameState[17,15] = 1
+gameState[17,16] = 1
+gameState[17,17] = 1
+gameState[18,18] = 1
+gameState[21,18] = 1
+gameState[20,19] = 1
+gameState[21,20] = 1
+gameState[19,15] = 1
+gameState[19,16] = 1
+gameState[19,17] = 1
+gameState[20,17] = 1
+'''
+
+
+'''
 # Oscilador.
 gameState[38, 20] = 1
 gameState[39, 20] = 1
@@ -101,6 +117,11 @@ while True:
                             gameState[(x)     % nxC, (y + 1)  % nyC] + \
                             gameState[(x + 1) % nxC, (y + 1)  % nyC]
 
+                # Regla de condensacion
+
+                #if gameState[x, y] == 0 and n_neigh >= 4:
+                #    newGameState[x, y] = 1
+
                 # Regla #1 : Una celda muerta con exactamente 3 vecinas vivas, "revive".
 
                 if gameState[x, y] == 0 and n_neigh == 3:
@@ -110,6 +131,8 @@ while True:
 
                 elif gameState[x, y] == 1 and (n_neigh < 2 or n_neigh > 3):
                     newGameState[x, y] = 0
+
+
 
             # Calculamos el polígono que forma la celda.
             poly = [((x)   * dimCW, y * dimCH),
